@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 // parse requests of content-type - application/json
 app.use(bodyParser.json())
 
-
+//added comment by sundar sss
 mongoose.connect('mongodb://localhost/student_management', { useNewUrlParser: true }).then(() => console.log("MongoDB connected...")).catch(() => console.log("not connected"));
 
 //const db = mongoose.connection();
